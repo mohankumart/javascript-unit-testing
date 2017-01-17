@@ -1,0 +1,22 @@
+{
+  "name": "javascript-unit-tests",
+  "version": "0.0.0",
+  "description": "unit tests for javascript",
+  "main": "gruntfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Mohan kumar T",
+  "license": "ISC",
+  "dependencies": {
+    "mocha": "^3.2.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mohankumart/javascript-unit-testing.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mohankumart/javascript-unit-testing/issues"
+  },
+  "homepage": "https://github.com/mohankumart/javascript-unit-testing#readme"
+}
