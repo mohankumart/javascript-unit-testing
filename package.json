@@ -4,7 +4,8 @@
   "description": "unit tests for javascript",
   "main": "gruntfile.js",
   "scripts": {
-    "test": "mocha"
+    "test": "mocha",
+    "test:watch": "mocha --watch ./test ./"
   },
   "author": "Mohan kumar T",
   "license": "ISC",
