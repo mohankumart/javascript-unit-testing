@@ -17,6 +17,9 @@ function checkForShip(player, coordinates) {
 }
 
 function damageShip(ship, coordinates){
+	if(!coordinates){
+		throw Error('No Coordinates specified');
+	}
 	for(var i = 0; i<coordinates.length; i++){
 		ship.damage.push(coordinates[i])
 	}
